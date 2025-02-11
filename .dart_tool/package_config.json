@@ -207,9 +207,9 @@
     },
     {
       "name": "webview_flutter_web",
-      "rootUri": "file:///home/ind/.pub-cache/hosted/pub.dev/webview_flutter_web-0.2.3+2",
+      "rootUri": "file:///home/ind/.pub-cache/hosted/pub.dev/webview_flutter_web-0.2.3+4",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     },
     {
       "name": "webview_flutter_wkwebview",
@@ -224,7 +224,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-02-11T16:22:15.096712Z",
+  "generated": "2025-02-11T16:23:18.336802Z",
   "generator": "pub",
   "generatorVersion": "3.6.2",
   "flutterRoot": "file:///home/ind/snap/flutter/common/flutter",

@@ -94,13 +94,13 @@ mixin TitleBarWebViewController {
 
 class TitleBarWebViewState extends InheritedWidget {
   const TitleBarWebViewState({
-    Key? key,
-    required Widget child,
+    super.key,
+    required super.child,
     required this.isLoading,
     required this.canGoBack,
     required this.canGoForward,
     required this.url,
-  }) : super(key: key, child: child);
+  });
 
   final bool isLoading;
   final bool canGoBack;
@@ -124,12 +124,11 @@ class TitleBarWebViewState extends InheritedWidget {
 
 class _TitleBarApp extends StatefulWidget {
   const _TitleBarApp({
-    Key? key,
     required this.webViewId,
     required this.titleBarTopPadding,
     required this.builder,
     this.backgroundColor,
-  }) : super(key: key);
+  });
 
   final int webViewId;
 
