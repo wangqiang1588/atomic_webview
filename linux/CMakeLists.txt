@@ -7,7 +7,7 @@ project(${PROJECT_NAME} LANGUAGES CXX)
 set(PLUGIN_NAME "atomic_webview_plugin")
 
 find_package(PkgConfig REQUIRED)
-# From Ubuntu 20.04 only have webkit2gtk-4.1
+# From Ubuntu 22.04 only find webkit2gtk-4.1
 pkg_check_modules(WebKit IMPORTED_TARGET webkit2gtk-4.1)
 if (NOT WebKit_FOUND)
   pkg_check_modules(WebKit REQUIRED IMPORTED_TARGET webkit2gtk-4.0)  # for backward compatibility
